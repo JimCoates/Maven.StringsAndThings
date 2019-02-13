@@ -111,7 +111,7 @@ public class StringsAndThings {
         char[] letterArray = input.toCharArray();
         Integer counter = 0;
 
-        for (int i = 0; i < input.length(); i++)
+        for (int i = 0; i < input.length()-2; i++)
             if (letterArray[i + 1] == letterArray[i] && letterArray[i + 2] == letterArray[i]) {
                 counter++;
             }
